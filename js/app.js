@@ -36,7 +36,7 @@ Enemy.prototype.update = function(dt) {
   //restart enemy movement once player is in water
   if (this.x >= 550) {
     this.x = -150;
-    this.movement = 150 + Math.floor(Math.random() * 750);
+    this.movement = 150 + Math.floor(Math.random() * 800);
   }
   //Calls the checkCollissions method which simulates if player gets hit by enemies
   this.checkCollisions();
