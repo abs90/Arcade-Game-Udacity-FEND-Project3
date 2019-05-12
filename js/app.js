@@ -62,7 +62,7 @@ Enemy.prototype.checkCollisions = function(){
 
         if (confirm('Do you want to play again ?')){
           lives = 5;
-          playerScore = 0;
+          result = 0;
           livesCount.innerText = lives;
           playerScore.innerText = '';
         }else{
@@ -106,7 +106,7 @@ Enemy.prototype.checkCollisions = function(){
         confirm(`You win!`);
         if (confirm('Do you want to play again?')){
           lives = 5;
-          playerScore = 0;
+          result = 0;
           livesCount.innerText = lives;
           playerScore.innerText = '';
         }else{
